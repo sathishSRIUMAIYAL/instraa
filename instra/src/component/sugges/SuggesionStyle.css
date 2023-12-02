@@ -1,0 +1,52 @@
+.suggesions{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.suggestions_title{
+    color: gray;
+    font-weight: bold;
+}
+.username_left{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+.relation{
+    color: gray;
+    font-size: 12px;
+}
+.suggesition_username{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.follow_button{
+    color: #0095f6;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+    
+}
+.follow_button:hover{
+    cursor: pointer;
+    color: gray;
+}
+.username{
+    font-weight: 600px;
+    font-size: 14px;
+}
+.avatar{
+    margin-right: 10px;
+}
+@media screen and (max-width:750px) {
+    .follow_button,.suggestions_title{
+        display: none;
+    }
+   
+ }

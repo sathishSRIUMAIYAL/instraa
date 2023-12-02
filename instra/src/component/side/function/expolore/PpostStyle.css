@@ -1,0 +1,24 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+.posttt .post_imagee img{
+    border-radius:0px;
+    width: 250px;   
+    display: flex;
+    border: solid 1px ;
+    position:relative;
+
+}
+.posttt .post_imagee .posticonn{
+    position: absolute;
+    
+}
+.posttt .post_imagee .fflex{
+    cursor: pointer;
+    display: flex;
+}
+.posttt .post_imagee .fflex div,h5{
+    margin-left: 25px;
+}
+

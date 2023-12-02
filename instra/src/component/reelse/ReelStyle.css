@@ -1,0 +1,18 @@
+.substatus{
+    padding: 30px 0 5px 15px;
+}
+.imggg img{
+    height:50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(198,196, 196);
+    background-position: center;
+    background-size: cover;
+}
+.Status{
+    display: flex;
+    overflow-x:auto ;
+}
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,93 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+.logo{
+    width: 120px;
+    margin: 25px;
+}
+.sidenav_buttons{
+    display: flex;
+    flex-direction: column;
+
+}
+.sidenav_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background:0;
+    border:0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.sidenav_button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255,255,0.128);
+}
+
+.sidenav_button > span{
+    font-size: 17px;
+    font-weight: bold;margin-left: 10px;
+    margin-left: 10px;
+
+}
+
+.sidnav_more{
+    position: fixed;
+    bottom: 3px;
+    margin-left: -30px;
+}
+.dropdown-menu li a{
+    margin-top:6px;
+    padding: 15px;
+}
+.pop .po_main{
+   
+    
+    position: absolute;
+    top: 20%;
+    margin-left: 350%;
+    
+    
+  
+}
+.pop .po_main .popup .po-head{
+    background-color:white;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center; 
+    border: solid 1px whitesmoke ;
+}
+.pop .po_main .popup .po-head img{
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+
+
+@media screen and (max-width:650px) {
+   span{
+    display: none;
+   }
+   .logo{
+    display:none;
+    
+   }
+    
+}
+@media screen and (min-width:650px) {
+   p{
+    display: none;
+   }
+    
+}

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0; box-sizing: border-box;
+}
+.reels_page{
+    display: flex;
+}
+.reels_page .side_reelsicon{
+    width: 20%;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+}
+.reels_page .reels_page{
+    width: 80%;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 45%;
+    text-align: center;
+    
+}
+.reels_page .ok ul .flex li{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+
+
+} 
+.reels_page .ok ul .flex li .iconn{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+}
+.reels_page .ok ul .flex li .iconn .ii{
+    margin-top: 200%;
+    margin-left: 100%;
+    cursor: pointer;
+}
+.reels_page .ok ul .flex li .iconn h6{
+    margin-left: 100%;
+
+}
+.reels_page .ok ul .flex li .iconn .ii:hover{
+    opacity: 0.5;
+    
+}

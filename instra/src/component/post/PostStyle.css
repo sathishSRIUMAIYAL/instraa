@@ -1,0 +1,46 @@
+.post{
+   
+    margin: 30px 40px 50px 40px;
+}
+.post_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post_headerhhh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    
+
+}
+.post_headerhhh span{
+    color: gray;
+    font-size: 15px;
+}
+.ss{
+    margin-right: 10px;
+}
+.post_image > img{
+    width: 100%;
+    border-radius: 8px;
+    border: 0.8px solid white;
+}
+.post_fotericon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.post_fotericon.post_iconsmain .posticon{
+    padding: 7px;
+}
+.post_iconsmain .posticon{
+    margin-left: 10px;
+}
+.posticon:hover{
+    cursor: pointer;
+}
